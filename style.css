@@ -1,6 +1,13 @@
 body {
-    background-color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.button1,
+.button2,
+.button3 {
+    padding: 12px;
+    margin: 24px;
+    border: dotted blue 8px;
 }
 
 .button1 {
@@ -24,14 +31,27 @@ img {
 }
 
 p {
-    background-color: black;
-    color: white;
+    color: black;
+    margin: 24px;
 }
 
-h1,
-h3,
-h4,
-li {
-    text-align: center;
-    
+
+h1 {
+    border: solid lightblue 12px;
+    display: inline-block;
+}
+
+h3 {
+    border: solid red 8px;
+    padding: 12px;
+    background-color: blue;
+    display: inline-block;
+}
+
+.order {
+    display: inline;
+}
+
+.orderedp {
+    width: 600px;
 }
